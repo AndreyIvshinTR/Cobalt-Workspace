@@ -56,7 +56,6 @@ $ErrorActionPreference = "Stop"
 Push-Location (Split-Path $PSCommandPath -Parent)
 
 try {
-    . (Join-Path (Split-Path $PSCommandPath -Parent) "Activate.ps1")
     Setup-JDK-FIPS
     Setup-Tomcat-FIPS
     Setup-Prompt-FIPS
