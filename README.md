@@ -1,6 +1,16 @@
 # Cobalt Workspace
 Migrate from `Eclipse` to `Intellij` with this unified java environment
 ___
+### Overview
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/1b85e0de-c3aa-4181-85be-7db398ecfc08" />
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/3d9711b7-011a-4376-ad8b-41df6880ec1f" />
+<br>
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/01a03af1-95d1-4d81-a4c2-d69234c4e5f7" />
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/1c5c27e7-3779-43e1-9af3-a013b130acd8" />
+<br>
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/4b96309e-b4b6-4dfa-87b0-0882ce8b80b8" />
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/2ead65c0-c70c-4093-b7e3-8420faf9ebc0" />
+
 #### This project requires:
 - PowerShell `7+`
 #### This project provides:
@@ -60,7 +70,7 @@ The essence of the migration is `build.gradle` that provides 3 things:
 - Local Tomcat deployment via gradle tasks
 
 Examples:
-- [Web Debugger Persistence](https://github.com/tr/cobalt_WebDebuggerPersistence/blob/feat/cw/build.gradle)
+- [Web Debugger Persistence](https://github.com/tr/cobalt_WebDebuggerPersistence/blob/feat/2242602-fix-entraid-docs/build.gradle)
 
 This approach allows spending no time for IDE and environment configuration allowing developers save the configuration as the code and get to the project immediately
 ___
