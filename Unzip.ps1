@@ -8,7 +8,7 @@ function Unzip-Program {
     Remove-Item "$zipPath.shard_0*" -Force
 }
 
-﻿function Join-BinaryFiles {
+function Join-BinaryFiles {
     param([string]$Pattern, [string]$OutputFile)
 
     $shards = Get-ChildItem $Pattern | Sort-Object Name
