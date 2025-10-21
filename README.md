@@ -77,7 +77,6 @@ ___
 ### FIPS
 Dot-source `FIPS.ps1` in the already activated workspace to use FIPS-compliant JDK and Tomcat:
 ```powershell
-. $env:HOME\CW\Acticate.ps1
 . $env:HOME\CW\FIPS.ps1
 ```
 ___
