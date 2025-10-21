@@ -48,9 +48,10 @@ to have identical projects setup:
 ```powershell
 . $env:HOME\CW\Acticate.ps1
 cd .\Projects\wdp\
+gradle cw-install
 idea .
-gradle cw-startup
 ```
+> Configure Intellij to use provided JDK and local Gradle installation instead of wrapper
 ___
 ### Gradle
 The essence of the migration is `build.gradle` that provides 3 things:
