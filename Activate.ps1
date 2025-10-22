@@ -20,6 +20,7 @@ function Setup-Gradle {
 
 function Setup-Tomcat {
     $env:CATALINA_HOME = Join-Path (Get-Location) "Programs\Tomcat\10.1.48"
+    $env:CATALINA_OPTS = "$env:CATALINA_OPTS -Dhttp.port=8080 -Dhttps.port=8443"
     $env:PATH = "$env:CATALINA_HOME\bin;$env:PATH"
 }
 
