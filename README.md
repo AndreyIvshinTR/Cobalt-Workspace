@@ -12,7 +12,7 @@ ___
 <img height="200" alt="image" src="https://github.com/user-attachments/assets/2ead65c0-c70c-4093-b7e3-8420faf9ebc0" />
 
 #### This project requires:
-- PowerShell `7+`
+- PowerShell `7+` - see [here](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
 #### This project provides:
 - JDK `17.0.16-amzn`, `17.0.16-amzn-fips`
 - Ant `1.10.15`
@@ -21,9 +21,10 @@ ___
 - Tomcat `10.1.48`, `10.1.48-fips`
 
 #### This project doesn't provide:
-- GIT with Commit Signing
-- Python with Cloud tool
-- Docker
+- `GIT` with `SMIME` - see [here](https://git-scm.com/install/windows) and [here](https://techtoc.thomsonreuters.com/non-functional/security/supply-chain-security/source-code-signing/)
+- `Python` with `cloud-tool` - see [here](https://www.python.org/downloads/release/python-3110/) and [here](https://techtoc.thomsonreuters.com/non-functional/cloud-landing-zones/aws-cloud-landing-zones/command-line-access/user_guide/)
+- `NPM` - see [here](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
+- `Docker` - see [here](https://podman-desktop.io/downloads/windows) and search for "custom Certificate Authorities" [here](https://podman-desktop.io/docs/proxy) with PEM from [here](https://thomsonreuters.service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0042137) and restart podman machine
 ___
 ### Install
 Install this project in your `home` directory and run `Unzip.ps1` to unpack programs:
